@@ -1,0 +1,41 @@
+[0.815s] Invoking command in '/home/daisuke/ros2_ws/src/mypkg': PYTHONPATH=/home/daisuke/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build install --record /home/daisuke/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.977s] running egg_info
+[0.977s] creating build/mypkg/mypkg.egg-info
+[0.977s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.978s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.978s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.978s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.978s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.979s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.008s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.009s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.009s] running build
+[1.009s] running build_py
+[1.010s] creating /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build
+[1.010s] creating /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib
+[1.010s] creating /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.010s] copying mypkg/talker.py -> /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.011s] copying mypkg/listener.py -> /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.011s] copying mypkg/__init__.py -> /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.011s] running install
+[1.012s] running install_lib
+[1.012s] creating /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.013s] copying /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.013s] copying /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.013s] copying /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.013s] byte-compiling /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.015s] byte-compiling /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.015s] byte-compiling /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[1.015s] running install_data
+[1.015s] creating /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[1.016s] creating /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[1.016s] creating /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.016s] copying resource/mypkg -> /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.016s] copying package.xml -> /home/daisuke/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.017s] running install_egg_info
+[1.018s] Copying build/mypkg/mypkg.egg-info to /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.020s] running install_scripts
+[1.042s] Installing listener script to /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.042s] Installing talker script to /home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.043s] writing list of installed files to '/home/daisuke/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.061s] Invoked command in '/home/daisuke/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/daisuke/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/daisuke/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/daisuke/ros2_ws/src/mypkg/build/mypkg/build install --record /home/daisuke/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

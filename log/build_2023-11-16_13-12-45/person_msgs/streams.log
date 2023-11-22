@@ -1,0 +1,25 @@
+[0.433s] Invoking command in '/home/daisuke/ros2_ws/build/person_msgs': /usr/bin/cmake /home/daisuke/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/daisuke/ros2_ws/install/person_msgs
+[0.824s] -- The C compiler identification is GNU 9.4.0
+[1.120s] -- The CXX compiler identification is GNU 9.4.0
+[1.201s] -- Check for working C compiler: /usr/bin/cc
+[1.397s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.445s] -- Detecting C compiler ABI info
+[1.649s] -- Detecting C compiler ABI info - done
+[1.704s] -- Detecting C compile features
+[1.706s] -- Detecting C compile features - done
+[1.716s] -- Check for working CXX compiler: /usr/bin/c++
+[1.983s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.984s] -- Detecting CXX compiler ABI info
+[2.237s] -- Detecting CXX compiler ABI info - done
+[2.247s] -- Detecting CXX compile features
+[2.247s] -- Detecting CXX compile features - done
+[2.304s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.362s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.362s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.704s] CMake Error at CMakeLists.txt:20 (rosidl_generate_interfaces):
+[2.704s]   Unknown CMake command "rosidl_generate_interfaces".
+[2.704s] 
+[2.705s] 
+[2.705s] -- Configuring incomplete, errors occurred!
+[2.705s] See also "/home/daisuke/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[2.711s] Invoked command in '/home/daisuke/ros2_ws/build/person_msgs' returned '1': /usr/bin/cmake /home/daisuke/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/daisuke/ros2_ws/install/person_msgs
